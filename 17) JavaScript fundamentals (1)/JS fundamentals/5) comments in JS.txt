@@ -1,0 +1,41 @@
+Comments in JavaScript are used to add explanatory notes within the code that are ignored by the JavaScript interpreter. They serve several important purposes:
+
+1) Code Documentation:
+
+Comments help document the code by providing information about its purpose, logic, and usage. This makes it easier for other developers (or even yourself in the future) to understand the codebase.
+
+2) Clarification:
+
+Comments can clarify complex or non-intuitive sections of code, explaining the reasoning behind a particular approach or providing context for a specific implementation.
+
+3) Debugging and Troubleshooting:
+
+Comments can be used to temporarily disable or comment out portions of code during debugging, allowing developers to identify and isolate issues.
+
+4) Communication:
+
+Comments facilitate communication among team members working on the same codebase. They can convey important information about functions, variables, or any other aspect of the code.
+
+Single-Line Comments:
+Single-line comments in JavaScript start with // and continue until the end of the line.
+
+// This is a single-line comment
+let variable = 42; // This comment explains the purpose of the variable
+
+Multi-Line Comments:
+Multi-line comments start with /* and end with */. They can span multiple lines.
+
+/*
+  This is a multi-line comment.
+  It provides detailed information or explanations about a block of code.
+  Multi-line comments are useful for larger explanations.
+*/
+
+let x = 10;
+let y = 20;
+
+/*
+  These variables represent coordinates on a plane.
+  x is the horizontal coordinate, and y is the vertical coordinate.
+*/
+
